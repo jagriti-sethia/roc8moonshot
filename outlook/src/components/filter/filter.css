@@ -1,0 +1,32 @@
+*{
+    font-weight: 600 ;
+}
+.header {
+    display: flex;
+    gap: 20px;
+    padding: 32px 0px;
+  
+}
+
+.unsellected-button {
+    background: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.selected-button {
+    border-color: #CFD2DC;
+    border-radius: 15px;
+    padding: 0 10px;
+    background-color: #E1E4EA;
+}
+
+.selected-button {
+    border: 1px solid #CFD2DC;
+    border-radius: 15px;
+    padding: 0 10px;
+    background-color: #E1E4EA;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
