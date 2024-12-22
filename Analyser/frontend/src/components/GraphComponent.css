@@ -1,0 +1,57 @@
+.graph-container {
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.chart-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chart-container {
+    width: 100%;
+}
+
+.chart-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+}
+.chart-wrapper{
+    width: 60%;
+    display : flex;
+   
+}
+
+.highlight {
+    color:rgb(49, 14, 74);
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.spinner {
+    font-size: 40px;
+    color: #ff6b6b;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.chart-wrapper {
+    height: 300px;
+}
